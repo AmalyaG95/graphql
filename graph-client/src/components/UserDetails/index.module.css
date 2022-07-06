@@ -1,0 +1,39 @@
+.container {
+    width: 50%;
+    min-width: 150px;
+    background-color: rgb(244, 175, 176);
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px  0 0 10px;
+    padding: 1em;
+    margin: 1.5em 0;
+}
+
+.container .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+    font-size: 1.5rem;
+}
+
+.container span {
+    width: max-content;
+}
+
+.input {
+    background: transparent;
+    font-size: 1.5rem;
+    outline: none;
+    margin-left: 0.25em;
+    width: 65px;
+    
+}
+
+.input:focus {
+    outline: none;
+    border: none;
+}
